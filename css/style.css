@@ -383,6 +383,7 @@ h4 {
     .inMain {
         display: flex;
         flex-direction: column;
+        width: 480px;
     }
     
     .main3 {
@@ -390,6 +391,10 @@ h4 {
         flex-direction: column;
         padding: 0%;
         margin: 0%;
+        width: 480px;
+    }
+
+    .main2 {
         width: 480px;
     }
 
