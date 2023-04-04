@@ -1,3 +1,7 @@
+html {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
 h5 {
     color: #242E52;
 }
@@ -37,6 +41,11 @@ h4 {
     list-style-type: none;
 }
 
+.hamburguesa {
+    display: none;
+    list-style-type: none;
+}
+
 .botonHeader {
     color: #ffffff;
     border-radius: 50px;
@@ -44,6 +53,7 @@ h4 {
     padding: 10px 30px 10px 30px;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
     
 }
 
@@ -89,6 +99,7 @@ h4 {
     padding: 10px 30px 10px 30px;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .violetMain {
@@ -151,6 +162,19 @@ h4 {
     
 }
 
+.numeros {
+    display: flex;
+    align-items: center;
+}
+
+.numerotres {
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    background-color:#8B48BF;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
 .tres {
     color: #B3B2B7;
     width: 50%;
@@ -193,6 +217,7 @@ h4 {
     margin-bottom: 10%;
     padding: 10px 50px 10px 50px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 /* footer */
@@ -224,6 +249,7 @@ h4 {
     background-color: #ffffff;
     height: fit-content;
     padding: 1% 2% 1% 2%;
+    cursor: pointer;
 }
 
 .bottomfooter {
@@ -303,6 +329,7 @@ h4 {
     border-radius: 50px;
     background-color: #8B48BF;
     padding: 5% 15% 5% 15%;
+    cursor: pointer;
 }
 
 .bottomform {
@@ -320,6 +347,13 @@ h4 {
 
     .navHeader {
         display: none;
+    }
+
+    .hamburguesa {
+        display: flex;
+        align-items: flex-start;
+
+        
     }
 
     .botonHeader {
@@ -439,7 +473,7 @@ h4 {
         padding: 0%;
         margin: 0%;
         height: 150px;
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .violetright {
